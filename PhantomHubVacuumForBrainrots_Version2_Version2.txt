@@ -941,6 +941,7 @@ local function createMutationSelector(tabName)
 
     local wrapperListLayout = Instance.new("UIListLayout")
     wrapperListLayout.Padding = UDim.new(0, 0)
+    wrapperListLayout.VerticalFlex = Enum.UIFlexMode.SpaceEvenly
     wrapperListLayout.SortOrder = Enum.SortOrder.LayoutOrder
     wrapperListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
     wrapperListLayout.Parent = containerWrapper
